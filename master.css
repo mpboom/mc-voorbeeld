@@ -1,8 +1,48 @@
 body {
-    margin: 2rem;
+    margin: 0;
     font-family: "Noto Sans";
+    background-color: #eee;
 }
 
 h1 {
-    color: red;
+    color: crimson;
+    text-align: center;
+}
+
+header {
+    box-sizing: border-box;
+}
+
+nav {
+    margin: 2rem;
+    background-color: #333;
+    display: flex;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+nav a, nav a:visited {
+    display: block;
+    padding: .5rem;
+    color: white;
+    text-decoration: none;
+}
+
+nav a.actief {
+    background-color: #555;
+}
+
+main {
+    background-color: white;
+    box-sizing: border-box;
+    min-height: calc(100vh - 15rem);
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+}
+
+footer {
+    padding-top: 1rem;
+    text-align: center;
 }
